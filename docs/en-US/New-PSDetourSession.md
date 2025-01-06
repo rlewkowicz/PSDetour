@@ -32,7 +32,7 @@ See [about_PSDetourSessions](./about_PSDetourSessions.md) for more information.
 ### Example 1 - Create a remote session to notepad
 
 ```powershell
-PS C:\> $session = New-PSDetourSsession -ProcessId notepad
+PS C:\> $session = New-PSDetourSession -ProcessId notepad
 PS C:\> Enter-PSSession -Session $session
 ```
 
